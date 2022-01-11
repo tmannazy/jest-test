@@ -1,4 +1,4 @@
-import calculator from "./calculator";
+import calculator from "../code/calculator";
 
 it("Takes two numbers and return the correct calculation", () => {
   expect(calculator.add(2, 14)).toBe(16);

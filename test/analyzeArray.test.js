@@ -1,4 +1,4 @@
-import arrayOfNumbers from "./analyzeArray";
+import arrayOfNumbers from "../code/analyzeArray";
 
 it("Analyzes numbers in array to get the minimum, maximum, length & average", () => {
   expect(arrayOfNumbers([1, 3, 8, 6, 10])).toEqual({
